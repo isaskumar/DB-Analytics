@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54012" started-at="2020-10-07T14:32:29 CEST" finished-at="2020-10-07T14:33:23 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54012" started-at="2020-10-07T14:32:29 CEST" finished-at="2020-10-07T14:33:23 CEST">
+      <class name="DBTest">
+        <test-method status="PASS" signature="connectDataBase()[pri:0, instance:DBTest@3c407114]" name="connectDataBase" is-config="true" duration-ms="144" started-at="2020-10-07T14:32:29 CEST" finished-at="2020-10-07T14:32:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDataBase -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DBTest@3c407114]" name="setUp" is-config="true" duration-ms="3932" started-at="2020-10-07T14:32:29 CEST" finished-at="2020-10-07T14:32:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="webTest(java.lang.String)[pri:0, instance:DBTest@3c407114]" name="webTest" duration-ms="13110" started-at="2020-10-07T14:32:33 CEST" data-provider="getData" finished-at="2020-10-07T14:32:46 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.it/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String)[pri:0, instance:DBTest@3c407114]" name="webTest" duration-ms="15666" started-at="2020-10-07T14:32:46 CEST" data-provider="getData" finished-at="2020-10-07T14:33:02 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.zalando.it/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="webTest(java.lang.String)[pri:0, instance:DBTest@3c407114]" name="webTest" duration-ms="20522" started-at="2020-10-07T14:33:02 CEST" data-provider="getData" finished-at="2020-10-07T14:33:22 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.moncler.com/it]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DBTest@3c407114]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-10-07T14:33:22 CEST" finished-at="2020-10-07T14:33:23 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DBTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
